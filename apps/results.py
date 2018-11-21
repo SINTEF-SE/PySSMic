@@ -463,21 +463,21 @@ def update_consumption(run, simulation):
             go.Scatter(
                 x=profiles[0],
                 y=profiles[1],
-                name="Power consumed locally",
+                name="Energy consumed locally",
                 marker=dict(color="#00A6FC")
             ),
 
             go.Scatter(
                 x=profiles[2],
                 y=profiles[3],
-                name="Power consumed remotely",
+                name="Energy consumed remotely",
                 marker=dict(color="#FF0000")
             ),
 
             go.Scatter(
                 x=profiles[4],
                 y=profiles[5],
-                name="Power produced",
+                name="Energy produced",
                 marker=dict(color="#008000")
             ),
         ],
@@ -486,7 +486,7 @@ def update_consumption(run, simulation):
                 "title": "Time [Minutes]"
             },
             yaxis={
-                "title": "Power [W]"
+                "title": "Energy [Wh per minute]"
             }
         )
     )
@@ -504,21 +504,21 @@ def update_consumption(simulation):
             go.Scatter(
                 x=profiles_combined[0],
                 y=profiles_combined[1],
-                name="Power consumed locally",
+                name="Energy consumed locally",
                 marker=dict(color="#00A6FC")
             ),
 
             go.Scatter(
                 x=profiles_combined[2],
                 y=profiles_combined[3],
-                name="Power consumed remotely",
+                name="Energy consumed remotely",
                 marker=dict(color="#FF0000")
             ),
 
             go.Scatter(
                 x=profiles_combined[4],
                 y=profiles_combined[5],
-                name="Power produced",
+                name="Energy produced",
                 marker=dict(color="#008000")
             ),
         ],
@@ -527,7 +527,7 @@ def update_consumption(simulation):
                 "title": "Time [Minutes]"
             },
             yaxis={
-                "title": "Power [W]"
+                "title": "Energy [Wh per minute]"
             }
         )
     )
