@@ -19,7 +19,7 @@ A step by step series of examples that tell you how to get a development env run
 1. Open your terminal and clone the github repo to the folder you want
 
 ```
-git clone https://github.com/eskarpnes/PySSMic.git
+git clone https://github.com/SINTEF-SE/PySSMic.git
 ```
 
 2. Change directory to PySSMic and create a virtual environment called venv
